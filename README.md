@@ -20,7 +20,14 @@ you can see examples of bad relations in 'relation_list.py'--> 'bad_relations'. 
 
 If both LLAVA relationship and the QWEN relationships are false, you can write a suggestion for the relation in the ''Better suggestion'' box. When writing the suggestion conside the relation between the entity with smallest id as the subject and the entity with largest id as the object.
 
+## Running the script
 
+You can run
+
+```
+python visualize_final_yourname.py
+```
+to get the annotation tool working
 
 if you get a 'ModuleNotFoundError: No module named 'cv2'' install opencv by typing following in the terminal
 ```
