@@ -97,7 +97,7 @@ def main():
 
         # save_path = os.path.join('/vulcanscratch/hirunima/ovad_images/', img_name)
         # os.makedirs(os.path.dirname(save_path), exist_ok=True)
-    for file in reverse(inputs):
+    for file in reversed(inputs):
         file_path = os.path.join(info, file) 
         
         data = read_json_file(file_path)
