@@ -117,10 +117,10 @@ def main():
                 
                 category = item['category']
                 closest_category = item['closest_category']
-                if sorted([closest_category,category]) in objects_list:
+                if sorted((item['object_id'], item['closest_id'])) in objects_list:
                     continue
                 # attributes = ', '.join(item['attributes'])
-                objects_list.append(sorted([closest_category,category]))
+                objects_list.append(sorted((item['object_id'], item['closest_id'])))
 
                 bbox = item['bbox']
                 img_name = f"{image_id:012}.jpg"
