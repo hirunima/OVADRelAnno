@@ -125,7 +125,6 @@ def main():
                     if 'llava_relationship_correct' in item and 'qwen_relationship_correct' in item and 'human_suggestion' in item:
                         continue
                     # attributes = ', '.join(item['attributes'])
-                    import pdb; pdb.set_trace()
                     objects_list.append(given_key)
 
                     bbox = item['bbox']
