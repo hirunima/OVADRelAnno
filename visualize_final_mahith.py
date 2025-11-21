@@ -201,9 +201,9 @@ def main():
                     root.mainloop()
                     print('#################################')
 
-            output_path = os.path.join(output_dir, f"{image_id:012}.json")
+            # output_path = os.path.join(output_dir, f"{image_id:012}.json")
             
-            with open(output_path, 'w') as f:
+            with open(output_dir, 'w') as f:
                 json.dump(output , f, indent=2)
             # user_input = get_dropdown_selection(options)
 
