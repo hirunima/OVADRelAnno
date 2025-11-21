@@ -34,3 +34,16 @@ if you get a 'ModuleNotFoundError: No module named 'cv2'' install opencv by typi
 pip install opencv-python
 ```
 
+## Adding Missing Relation
+
+You can run
+
+```
+python visualize_final_mahith.py
+```
+to get the annotation tool working. This would open the same annotation tool with same images you annotated but with different objects and relations between them. We are adding at least realtions for each object and adding extra relations for main objects.
+
+You need to download one folder.
+
+manual_checked folder can be downloaded from 'https://drive.google.com/drive/folders/1xzQm05v8-65kWTqvCDoKw_nyY68y-ftC?usp=sharing'
+
