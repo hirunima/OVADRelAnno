@@ -83,7 +83,7 @@ def annotate_image(img, llava_item, relation, i, llava_items, qwen_items, obj1, 
 def main():
     # Example usage
 
-    info = './info_final/'
+    info = './for_dulina/'
     inputs = sorted(os.listdir(info))
     image_path = './ovad_images/'# + file.replace('.json', '.png')  # Replace with your JSON file path
     hirunima_checked = './manual_checked_hirunima/'
