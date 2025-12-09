@@ -82,12 +82,16 @@ def annotate_image(img, llava_item, relation, i, llava_items, qwen_items, obj1, 
 def main():
 
     info = ['./manual_checked/subject_smallest']
-    
+    output = './manual_checked_second/subject_smallest'
+    os.mkdir(output, exist_ok=True)
+    processed = os.listdir(output)
     image_path = './ovad_images/'# + file.replace('.json', '.png')  # Replace with your JSON file path
 
     for folder in info:  
         inputs = sorted(os.listdir(folder))  
-        for file in inputs:                          
+        for file in inputs:
+            if file in processed:
+                continue
             
             # relation = data_item['relations']
             # done=[]
@@ -101,6 +105,7 @@ def main():
             output_dir = os.path.join(folder, file) 
             
             data = read_json_file(file_path)
+            
             
             # cv2.imwrite(save_path, img)
             image_id = data['image_id']
