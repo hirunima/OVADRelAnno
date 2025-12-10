@@ -45,5 +45,5 @@ to get the annotation tool working. This would open the same annotation tool wit
 
 You need to download one folder.
 
-manual_checked folder can be downloaded from 'https://drive.google.com/drive/folders/1xzQm05v8-65kWTqvCDoKw_nyY68y-ftC?usp=sharing'
+manual_checked folder can be downloaded from '[https://drive.google.com/drive/folders/1xzQm05v8-65kWTqvCDoKw_nyY68y-ftC?usp=sharing](https://drive.google.com/file/d/1-k0U3i_UfWusDpV3ZbeTMxntMfoIX5Hr/view?usp=drive_link)'
 
