@@ -328,7 +328,7 @@ bad_relations =["sitting on horse's back",
     "opposite to each ther",
 ]
 
-adjecent=["side by side, parallel alignment",
+adjecent=["adjacent","side by side, parallel alignment",
 "side by side, facing opposite directions",
 "signs adjacent to each other",
     "opposite sides of",
@@ -489,4 +489,26 @@ change={"facing each other across water":"facing across water",
 "inside , and inside":'inside',
 "in , which inside":'inside',
 "in above in":'above',
+'next to each other':'next to',
+'side byside':'next to',
+"parallel on separate tracks":'parallel to',
+"parallel and opposite":'next to',
+"inside , adjacent to spoon":'inside adjacent to spoon',
+"signs side by side":'next to',
+"identical in design":'looks similar to',
+"side by side":'next to',
+"identical twins":'looks similar to',
+"behind, partially obscured":'behind',
+"opposite each other":'opposite to',
+"above, cutting":"cutting",
+"being held by":'held by',
+"opposite each other":'opposite to',
+"ridden":'ridden by'
 }
+
+composition_relations=["standing on", "lying on","contains",
+    "wearing","holding","sitting on",
+    "seated at",
+    "riding", "carrying","held by",
+    "consists of","wears","worn by","attached to","ridden"]
+
